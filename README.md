@@ -54,6 +54,34 @@ Dans le dossier du projet, exécute :
 ```bash
 npm install
 ```
+---
+
+## 📁 Création du dossier `static` (obligatoire avant de lancer le projet)
+
+Le projet utilise Webpack et CopyWebpackPlugin pour gérer les fichiers statiques.
+Vous devez donc créer un dossier `static` à la racine du projet avant d’exécuter le serveur.
+
+Créez-le via le terminal :
+
+```bash
+mkdir static
+touch static/.gitkeep
+```
+
+Votre structure doit être :
+
+```
+static/
+   .gitkeep
+```
+
+Ce dossier accueillera vos fichiers :
+
+* textures
+* modèles 3D
+* shaders
+* images
+* assets divers
 
 ---
 
@@ -69,7 +97,9 @@ npm run dev
 ```
 
 Ensuite, ouvre :
-👉 **[http://localhost:8080](http://localhost:8080)**
+👉 **[http://localhost:8080]**
+ou 
+👉 **[http://172.20.10.5:8080]**
 
 ---
 
@@ -98,4 +128,5 @@ Ensuite, ouvre :
 ## 📄 Licence
 
 Projet non licencié — libre d’utilisation personnelle ou d’amélioration.
+
 
