@@ -1,6 +1,7 @@
 # 🌌 Horizon AI — Three.js Experience
 
-Horizon AI est une expérience web immersive combinant **Three.js**, **GSAP**, **WebGL**, et une interface animée moderne.
+Horizon AI est une expérience web immersive combinant 
+**Three.js**, **GSAP**, **WebGL**, et une interface animée moderne.
 Le projet utilise un bundler Webpack entièrement configuré avec Babel, loaders CSS/HTML.
 ---
 
